@@ -1,0 +1,42 @@
+{
+  "pitch_rad": 0.0,
+  "K": -0.00033329117891953434,
+  "T_s": 0.08324691040539013,
+  "Td_s": 0.010074391893242092,
+  "fit_percent": 81.60885532266072,
+  "rmse": 0.10610379270697524,
+  "J": null,
+  "B": null,
+  "sample_count": 39996,
+  "identification_sample_count": 32000,
+  "dropped_samples": null,
+  "saturation_sample_count": 281,
+  "saturation_ratio_percent": 0.878125,
+  "full_run_saturation_sample_count": 323,
+  "full_run_saturation_ratio_percent": 0.8075807580758075,
+  "baseline_speed_mean_rad_s": 0.02006391408204102,
+  "baseline_speed_std_rad_s": 0.2103756993640281,
+  "baseline_current_mean": -85.21535767883942,
+  "optimizer_success": true,
+  "optimizer_message": "`ftol` termination condition is satisfied.",
+  "metadata": {
+    "pitch_rad": 0.0,
+    "T": 40.0,
+    "buffer_ratio": 0.2,
+    "f_start": 1.0,
+    "f_end": 50.0,
+    "amp_max": 0.05,
+    "omega_max": 1.7,
+    "alpha_max": 100.0,
+    "current_limit": 25000.0
+  },
+  "mcu_stats": {},
+  "received_samples": 39997,
+  "k_tau": null,
+  "historical_sanity_reference": {
+    "K": -0.0001479917,
+    "T_s": 0.044374897,
+    "Td_s": 0.014585,
+    "usage": "display-only sanity check; not used by the optimizer"
+  }
+}
